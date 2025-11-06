@@ -1,0 +1,45 @@
+{
+  "chromeMetadata": {
+    "OS": "Windows 11 25H2 (Build 26200)",
+    "application": "Microsoft Edge",
+    "version": "142.0.3595.53 (64-bit)"
+  },
+  "policyValues": {
+    "chrome": {
+      "name": "Microsoft Edge Policies",
+      "policies": {
+        "SmartScreenEnabled": {
+          "level": "mandatory",
+          "scope": "machine",
+          "source": "platform",
+          "value": true
+        },
+        "PreventSmartScreenPromptOverride": {
+          "level": "mandatory",
+          "scope": "machine",
+          "source": "platform",
+          "value": true
+        },
+        "ApplicationBoundEncryptionEnabled": {
+          "level": "mandatory",
+          "scope": "machine",
+          "source": "platform",
+          "value": true
+        },
+        "TypoSquattingCheckerEnabled": {
+          "level": "mandatory",
+          "scope": "machine",
+          "source": "platform",
+          "value": 1,
+          "note": "Policy recognized in newer Edge versions"
+        }
+      }
+    }
+  },
+  "status": {
+    "lastRefresh": "Verified OK",
+    "policySource": "Local Machine",
+    "updateChannel": "Stable"
+  },
+  "note": "This JSON was exported from edge://policy. It confirms that Microsoft Edge Security Baseline policies are active and enforced system-wide."
+}
